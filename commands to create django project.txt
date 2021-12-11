@@ -1,0 +1,26 @@
+//create directory to work on
+mkdir [directory name]
+
+//install python package virtualenv to create python virtual environemnt 
+pip install virtualenv
+
+//create environment
+virtualenv [environment name]
+
+//install django 
+pip install django 
+
+//activate python environment
+source [environment name]
+
+//[optional] deactivate the environment you created
+deactivate
+
+//create django project
+django-admin startproject [project name]
+
+//run server django
+python manage.py runserver
+
+//add app to project
+python manage.py startapp [app name]
